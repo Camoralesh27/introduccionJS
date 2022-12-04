@@ -15,3 +15,11 @@ console.log (producto3);
 console.log (typeof producto); 
 console.log (typeof producto2); 
 console.log (typeof producto3);
+
+//console.log es una función porque le estás enviando una variable y la función la está imprimiento. Al poner un ".lengh" es un método. Los espacios también son caracteres.
+console.log (producto.length);
+
+//Método: IndexOf 
+console.log(producto.indexOf('pulgadas'))
+console.log(producto.indexOf('tablet'))
+
